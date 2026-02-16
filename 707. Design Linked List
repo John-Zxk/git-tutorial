@@ -1,0 +1,46 @@
+from selenium.webdriver.common.devtools.v128.audits import AttributionReportingIssueDetails
+class Node:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+        self.prev = None
+
+class MyLinkedList:
+    def __init__(self, val):
+        self.head = Node(None)
+        self.tail = Node(None)
+        self.head.next = self.tail
+        self.tail.prev = self.head
+        self.size = 0
+        
+# 增
+def add_last(self, e):
+    x = Node(e)
+    temp = self.tail.prev
+    
+    temp.next = x 
+    x.prev = temp
+    # temp <-> x
+    
+    x.next = self.tail
+    self.tail.prev = x
+    # temp <-> x <-> tail
+    self.size += 1
+    
+def add_first(self, e):
+    x = Node(e)
+    temp = self.head.next
+    
+    
+    temp.next = x
+    x.prev = temp
+    
+    #temp <-> x
+    
+    self.head.next = x
+    x.prev = self.head
+    # head <-> temp <-> x 
+    self.size += 1
+
+def add(self, index, element):
+    pass    
