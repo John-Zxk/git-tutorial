@@ -7,7 +7,7 @@ HTML 学习开始：
 3. HTML 属性- OK
 4. HTML 标题- Ok
 5. HTML 段落- OK
-6. HTML 文本格式化- 
+6. HTML 文本格式化- In Progress
 
 物业费：3550
 车位管理费：840
