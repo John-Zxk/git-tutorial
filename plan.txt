@@ -7,7 +7,14 @@ HTML 学习开始：
 3. HTML 属性- OK
 4. HTML 标题- Ok
 5. HTML 段落- OK
-6. HTML 文本格式化- In Progress
+#20260322
+6. HTML 文本格式化- OK
+7. HTML 连接 - OK
+8. HTML 头部 - OK
+9. HTML CSS - OK
+10. HTML 图像 - OK
+11. HTML 表格 - OK
+
 
 物业费：3550
 车位管理费：840
